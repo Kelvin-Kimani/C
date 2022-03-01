@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+void main(){
 
     char name[100];
     int x, y;
@@ -27,5 +27,4 @@ int main(){
     printf("The modulus of %d and %d is %d\n", x, y, (x%y));
     printf("The multiplication of %d and %d is %d\n", x, y, (x*y));
 
-    return 0;
 }
